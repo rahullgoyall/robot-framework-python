@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.8.2 on win32)" generated="20200414 18:03:31.130" rpa="false">
+<suite id="s1" name="TC01" source="C:\Users\gs-1461\PycharmProjects\Robot\TestCases\TC01.robot">
+<test id="s1-t1" name="LoginTest">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://fb.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200414 18:03:31.422" level="INFO">Opening browser 'chrome' to base url 'https://fb.com'.</msg>
+<status status="PASS" starttime="20200414 18:03:31.422" endtime="20200414 18:03:42.967"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200414 18:03:42.968" endtime="20200414 18:03:44.363"></status>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<doc>Verifies that the current page title equals ``title``.</doc>
+<arguments>
+<arg>Facebook – log in or sign up</arg>
+</arguments>
+<msg timestamp="20200414 18:03:44.370" level="INFO">Page title is 'Facebook – log in or sign up'.</msg>
+<status status="PASS" starttime="20200414 18:03:44.363" endtime="20200414 18:03:44.370"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:email</arg>
+<arg>9717549650</arg>
+</arguments>
+<msg timestamp="20200414 18:03:44.371" level="INFO">Typing text '9717549650' into text field 'name:email'.</msg>
+<status status="PASS" starttime="20200414 18:03:44.370" endtime="20200414 18:03:44.539"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:pass</arg>
+<arg>bharatpur1</arg>
+</arguments>
+<msg timestamp="20200414 18:03:44.539" level="INFO">Typing text 'bharatpur1' into text field 'name:pass'.</msg>
+<status status="PASS" starttime="20200414 18:03:44.539" endtime="20200414 18:03:44.681"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://input[@value='Log In']</arg>
+</arguments>
+<msg timestamp="20200414 18:03:44.681" level="INFO">Clicking element 'xpath://input[@value='Log In']'.</msg>
+<status status="PASS" starttime="20200414 18:03:44.681" endtime="20200414 18:03:44.783"></status>
+</kw>
+<status status="PASS" starttime="20200414 18:03:31.422" endtime="20200414 18:03:44.783" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200414 18:03:31.133" endtime="20200414 18:03:44.785"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="TC01">TC01</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
