@@ -1,0 +1,2 @@
+[ ERROR ] Calling method '_start_suite' of listener 'DataDriver' failed: ImportError: Requirements (pandas, numpy) for XLS support are not installed.
+    Use 'pip install -U robotframework-datadriver[XLS]' to install XLS support.

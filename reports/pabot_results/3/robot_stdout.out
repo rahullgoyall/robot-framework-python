@@ -1,0 +1,18 @@
+==============================================================================
+TestCases                                                                     
+==============================================================================
+TestCases.TestDataDriven                                                      
+==============================================================================
+login user with valid data                                            | PASS |
+------------------------------------------------------------------------------
+login user without password                                           | PASS |
+------------------------------------------------------------------------------
+TestCases.TestDataDriven                                              | PASS |
+2 critical tests, 2 passed, 0 failed
+2 tests total, 2 passed, 0 failed
+==============================================================================
+TestCases                                                             | PASS |
+2 critical tests, 2 passed, 0 failed
+2 tests total, 2 passed, 0 failed
+==============================================================================
+Output:  C:\Users\gs-1461\PycharmProjects\Robot\reports\pabot_results\3\output.xml

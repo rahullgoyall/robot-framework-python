@@ -1,0 +1,17 @@
+==============================================================================
+TestCases                                                                     
+==============================================================================
+TestCases.ExcelData                                                           
+==============================================================================
+invalid data using                                                    | FAIL |
+Variable '${username}' not found.
+------------------------------------------------------------------------------
+TestCases.ExcelData                                                   | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+TestCases                                                             | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\gs-1461\PycharmProjects\Robot\reports\pabot_results\0\output.xml
