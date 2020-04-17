@@ -16,4 +16,4 @@ LoginTest
    enter text "pas" on "${password_textbox}"
    click on element   ${login_button}
 
-*** Settings ***
+*** Keywords ***
