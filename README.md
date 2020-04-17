@@ -24,3 +24,6 @@ Run command for reports in folder pabot --processes 6 --outputdir reports TestCa
 # Headless execution
 Give browser name headlesschrome or headlessfirefox
 
+# Youtube video tutorials
+https://www.youtube.com/watch?v=UbYxkUq0Hec&list=PLUDwpEzHYYLsCHiiihnwl3L0xPspL7BPG
+
